@@ -550,6 +550,9 @@ details[open] .accordion{grid-template-rows:1fr;opacity:1}
 @media (prefers-reduced-motion:reduce){
   *,*::before,*::after{animation:none!important;transition:none!important}
 }
+  html, body { overflow-x: hidden; }
+#root { overflow-x: hidden; }
+
 `}</style>
 
       <Helmet>
@@ -874,7 +877,7 @@ details[open] .accordion{grid-template-rows:1fr;opacity:1}
         {/* PROYECTOS */}
         <section id="proyectos" className="py-20">
           <div className="mb-10 flex items-end justify-between">
-            <Title>Proceso</Title>
+            <Title>Algunos Proyectos que hicimos</Title>
             <div className="text-sm text-white/60">Selección reciente</div>
           </div>
           <div className="grid gap-8 md:grid-cols-2 items-stretch">
